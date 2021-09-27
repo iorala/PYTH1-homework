@@ -44,7 +44,7 @@ turtle.lt(90)
 turtle.pendown()
 
 def gruppe_JAMFAN_P():
-
+# Autor: Andreas la Roi
 
 #     #
 #     # Rechteck zeichnen
