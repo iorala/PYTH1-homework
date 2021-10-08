@@ -12,7 +12,7 @@
 # Hausaufgabe Turtle
 # Buchstaben zeichnen
 import turtle
-from turtle import Screen 
+#from turtle import Screen 
 
 # Wir schreiben Python:
 # Jede Gruppe schreibt einen Buchstaben (P-Y-T-H-O-N)
@@ -29,32 +29,22 @@ from turtle import Screen
 turtle.speed(20)
 #turtle.cursor(hide)
 
-## Fenster vergrösseren 
-screen=Screen()
-screen.setup(1600, 600)
-#
-# An den linken Rand springen
-#
-turtle.penup()
-turtle.lt(180)
-turtle.fd(780)
-turtle.lt(90)
-turtle.fd(200)
-turtle.lt(90)
-turtle.pendown()
+# ## Fenster vergrösseren 
+# screen=Screen()
+# screen.setup(1600, 600)
+# #
+# # An den linken Rand springen
+# #
+# turtle.penup()
+# turtle.lt(180)
+# turtle.fd(780)
+# turtle.lt(90)
+# turtle.fd(200)
+# turtle.lt(90)
+# turtle.pendown()
 
-def gruppe_JAMFAN_P():
+def Gruppe_1_P():
 # Autor: Andreas la Roi
-
-#     #
-#     # Rechteck zeichnen
-#     #
-# 
-#     turtle.pencolor("light green")
-#     turtle.fd(300);turtle.lt(90);turtle.fd(400);turtle.lt(90);turtle.fd(300);turtle.lt(90);turtle.fd(400);turtle.lt(90)
-#     turtle.pencolor("black")
-
-    ## P zeichnen
 
     turtle.penup()
     turtle.fd(70)
@@ -62,7 +52,8 @@ def gruppe_JAMFAN_P():
     turtle.fd(10)
     turtle.rt(90)
     turtle.pendown()
-    turtle.fillcolor("black")
+    turtle.fillcolor("purple")
+    turtle.pencolor("purple")
 
     ## Erste Form
     turtle.begin_fill()
@@ -84,7 +75,7 @@ def gruppe_JAMFAN_P():
     turtle.fd(20)
     turtle.lt(180)
     turtle.pendown()
-    turtle.fillcolor("black")
+    turtle.fillcolor("purple")
     turtle.begin_fill()
     turtle.fd(120)
     turtle.lt(40)
@@ -114,6 +105,6 @@ def gruppe_JAMFAN_P():
     ##/Kerning
    
 
-gruppe_JAMFAN_P()
+Gruppe_1_P()
 
 turtle.exitonclick()
